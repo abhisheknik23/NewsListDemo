@@ -133,14 +133,12 @@
 		7711D7F4237FEF000068C54F /* NewsListDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7723A3932386AE73009C8688 /* Cell */,
-				770CE9532383107D008B153A /* ViewModels */,
-				770CE95023830688008B153A /* Models */,
-				770CE94D23830475008B153A /* WebServices */,
 				7711D829237FEF7E0068C54F /* AppDelegate */,
+				770CE95023830688008B153A /* Models */,
+				773392302386EC040083633F /* View */,
+				770CE9532383107D008B153A /* ViewModels */,
 				7711D828237FEF700068C54F /* Controllers */,
-				7711D7FB237FEF000068C54F /* Main.storyboard */,
-				7711D801237FEF020068C54F /* Assets.xcassets */,
+				773392312386EC280083633F /* Resources */,
 				7711D803237FEF020068C54F /* LaunchScreen.storyboard */,
 				7711D806237FEF020068C54F /* Info.plist */,
 				7711D7FE237FEF000068C54F /* NewsListDemo.xcdatamodeld */,
@@ -189,6 +187,24 @@
 				7723A3942386AE94009C8688 /* ArticleTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		773392302386EC040083633F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7723A3932386AE73009C8688 /* Cell */,
+				7711D7FB237FEF000068C54F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		773392312386EC280083633F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				770CE94D23830475008B153A /* WebServices */,
+				7711D801237FEF020068C54F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,7 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewsListDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -530,7 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewsListDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

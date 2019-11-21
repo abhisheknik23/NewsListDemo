@@ -15,3 +15,7 @@ Sample app for showing News Headings and Description gettting from https://newsa
 - UITableViewController
 - AutoLayout
 - StackView
+
+# Device
+
+- iPhone

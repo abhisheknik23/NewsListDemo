@@ -136,7 +136,7 @@ Dependencies/
 
 ## Xcode Patch
 *.xcodeproj/*
-*.xcworkspace/xcshareddata/xcschemes/SchemeName.xcscheme
+*.xcworkspace/xcshareddata/xcschemes/NewsListDemo.xcscheme
 !*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno

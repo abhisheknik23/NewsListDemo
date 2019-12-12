@@ -1,0 +1,15 @@
+name: Swift
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run tests
+      run: xcodebuild -project 'NewsListDemo.xcodeproj' -scheme 'NewsListDemo' -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max' test
+    - name: Build App
+      run: xcodebuild -project 'NewsListDemo.xcodeproj' -scheme 'NewsListDemo' -destination 'generic/platform=iOS' -configuration Relese build CODE_SIGNING_ALLOWED=NO

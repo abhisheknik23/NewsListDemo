@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tiw-tw-OeD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tiw-tw-OeD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--NEWS-->
+        <!--Good NEWS-->
         <scene sceneID="5Ot-ow-76u">
             <objects>
                 <tableViewController id="WVC-oV-0U1" customClass="NewsTableViewController" customModule="NewsListDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -59,7 +59,7 @@
                             <outlet property="delegate" destination="WVC-oV-0U1" id="7fx-Qk-NFA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="NEWS" id="2kz-KN-1gG"/>
+                    <navigationItem key="navigationItem" title="Good NEWS" id="2kz-KN-1gG"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dp7-2c-X6B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

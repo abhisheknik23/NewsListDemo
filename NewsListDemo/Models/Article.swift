@@ -15,4 +15,11 @@ struct ArticleList: Codable {
 struct Article: Codable {
     let title: String?
     let description: String?
+    let source: Source?
+}
+
+struct Source: Codable {
+    let id: String?
+    let name: String?
+    
 }

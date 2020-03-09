@@ -65,6 +65,18 @@ class NewsTableViewController: UITableViewController {
         
         cell.titileLabel.text = articleVM.titile
         cell.descriptionLabel.text = articleVM.description
+        cell.idLabel.text = articleVM.id
+        cell.nameLabel.text = articleVM.name
         return cell
     }
 }
+
+#if DEBUG
+extension NewsTableViewController {
+    
+    var testable_tableView: UITableView! {
+        return self.tableView
+    }
+    
+}
+#endif

@@ -20,6 +20,15 @@
 		7711D82B237FEFE00068C54F /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7711D82A237FEFE00068C54F /* NewsTableViewController.swift */; };
 		7723A3952386AE94009C8688 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723A3942386AE94009C8688 /* ArticleTableViewCell.swift */; };
 		7728388423805CDA00792440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728388323805CDA00792440 /* SceneDelegate.swift */; };
+		773960E9241630C00019CBBF /* NewsTableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773960E8241630C00019CBBF /* NewsTableViewControllerTest.swift */; };
+		773960EE241633DD0019CBBF /* result_with_missing_values_dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 773960EB241633DD0019CBBF /* result_with_missing_values_dataset.json */; };
+		773960EF241633DD0019CBBF /* happy_dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 773960EC241633DD0019CBBF /* happy_dataset.json */; };
+		773960F0241633DD0019CBBF /* empty_dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 773960ED241633DD0019CBBF /* empty_dataset.json */; };
+		773960F2241634060019CBBF /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773960F1241634060019CBBF /* MockData.swift */; };
+		773960F4241635DC0019CBBF /* NewsListModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773960F3241635DC0019CBBF /* NewsListModelTest.swift */; };
+		773960F52416484A0019CBBF /* happy_dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 773960EC241633DD0019CBBF /* happy_dataset.json */; };
+		773960F62416484E0019CBBF /* empty_dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 773960ED241633DD0019CBBF /* empty_dataset.json */; };
+		773960F7241648500019CBBF /* result_with_missing_values_dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 773960EB241633DD0019CBBF /* result_with_missing_values_dataset.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +68,12 @@
 		7711D82A237FEFE00068C54F /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		7723A3942386AE94009C8688 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		7728388323805CDA00792440 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		773960E8241630C00019CBBF /* NewsTableViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewControllerTest.swift; sourceTree = "<group>"; };
+		773960EB241633DD0019CBBF /* result_with_missing_values_dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = result_with_missing_values_dataset.json; sourceTree = "<group>"; };
+		773960EC241633DD0019CBBF /* happy_dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = happy_dataset.json; sourceTree = "<group>"; };
+		773960ED241633DD0019CBBF /* empty_dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_dataset.json; sourceTree = "<group>"; };
+		773960F1241634060019CBBF /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		773960F3241635DC0019CBBF /* NewsListModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +164,11 @@
 		7711D80E237FEF030068C54F /* NewsListDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				773960EA241633B20019CBBF /* MockData */,
 				7711D80F237FEF030068C54F /* NewsListDemoTests.swift */,
 				7711D811237FEF030068C54F /* Info.plist */,
+				773960E8241630C00019CBBF /* NewsTableViewControllerTest.swift */,
+				773960F3241635DC0019CBBF /* NewsListModelTest.swift */,
 			);
 			path = NewsListDemoTests;
 			sourceTree = "<group>";
@@ -205,6 +223,17 @@
 				7711D801237FEF020068C54F /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		773960EA241633B20019CBBF /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				773960F1241634060019CBBF /* MockData.swift */,
+				773960ED241633DD0019CBBF /* empty_dataset.json */,
+				773960EC241633DD0019CBBF /* happy_dataset.json */,
+				773960EB241633DD0019CBBF /* result_with_missing_values_dataset.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,8 +340,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773960F62416484E0019CBBF /* empty_dataset.json in Resources */,
 				7711D805237FEF020068C54F /* LaunchScreen.storyboard in Resources */,
+				773960F52416484A0019CBBF /* happy_dataset.json in Resources */,
 				7711D802237FEF020068C54F /* Assets.xcassets in Resources */,
+				773960F7241648500019CBBF /* result_with_missing_values_dataset.json in Resources */,
 				7711D7FD237FEF000068C54F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +353,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773960EE241633DD0019CBBF /* result_with_missing_values_dataset.json in Resources */,
+				773960F0241633DD0019CBBF /* empty_dataset.json in Resources */,
+				773960EF241633DD0019CBBF /* happy_dataset.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +388,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773960F4241635DC0019CBBF /* NewsListModelTest.swift in Sources */,
+				773960E9241630C00019CBBF /* NewsTableViewControllerTest.swift in Sources */,
+				773960F2241634060019CBBF /* MockData.swift in Sources */,
 				7711D810237FEF030068C54F /* NewsListDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

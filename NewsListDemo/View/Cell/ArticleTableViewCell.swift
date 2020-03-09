@@ -13,6 +13,8 @@ class ArticleTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titileLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var idLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -37,6 +37,22 @@ extension ArticleViewModel {
         }
     }
     
+    var id: String{
+        if let id = self.article.source?.id{
+            return id
+        }else{
+            return ""
+        }
+    }
+    
+    var name: String{
+        if let name = self.article.source?.name{
+            return name
+        }else{
+            return ""
+        }
+    }
+    
 }
 
 extension ArtileListViewModel {
